@@ -15,7 +15,6 @@
 
 O To-do List é um sistema onde pode ser adicionado novas tarefas, marcar como completas e remover a tarefa desejada da lista.
 
-![Descrição do projeto To-Do List, onde pode-se gerenciar cada tarefa informada.]
 </p>
 
 ## Funcionalidades
