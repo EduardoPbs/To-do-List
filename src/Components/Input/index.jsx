@@ -1,7 +1,6 @@
 import { useMemo, useRef, useState } from "react";
 import { useDispatch } from "react-redux";
 import { ChevronRightIcon } from "@heroicons/react/24/solid";
-import { v4 as uuid } from "uuid";
 import { addTodo } from "../store/reducers/task";
 
 const Input = () => {
@@ -11,13 +10,7 @@ const Input = () => {
 
     const handleSumbmit = (e) => {
         e.preventDefault();
-        dispatch(
-            addTodo({
-                id: uuid(),
-                title: title,
-                fav: false,
-            })
-        );
+        dispatch(addTodo({ title }));
 
         setTitle("");
         titleRef.current.focus();
