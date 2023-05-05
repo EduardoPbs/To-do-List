@@ -20,8 +20,13 @@ const taskSlice = createSlice({
             const index = state.findIndex(item => item.id === payload);
             state.splice(index, 1);
         },
+
+        changeItem:(state, {payload}) => {
+            const index = state.findIndex(item => item.id === payload.id);
+            Object.assign(state[index], payload.item);
+        }
     },
 });
 
-export const { addTodo, changeFav, delItem } = taskSlice.actions;
+export const { addTodo, changeFav, delItem, changeItem } = taskSlice.actions;
 export default taskSlice.reducer;
