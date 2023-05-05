@@ -13,7 +13,7 @@
 <p align="justify">
  Projeto pessoal em desenvolvimento.
 
-O To-do List é um sistema onde pode ser adicionado novas tarefas, marcar como completas e remover a tarefa desejada da lista.
+O To-do List é um sistema onde pode ser adicionado novas tarefas, marcar como completas, editar nome da tarefa e remover a tarefa desejada da lista.
 
 </p>
 
@@ -24,6 +24,8 @@ O To-do List é um sistema onde pode ser adicionado novas tarefas, marcar como c
 :heavy_check_mark: `Funcionalidade 2:` Atualizar o status da tarefa.
 
 :heavy_check_mark: `Funcionalidade 3:` Remover tarefa da lista.
+
+:heavy_check_mark: `Funcionalidade 4:` Editar nome da tarefa.
 
 
 ## Ferramentas utilizadas
