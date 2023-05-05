@@ -1,7 +1,7 @@
 import { useMemo, useRef, useState } from "react";
 import { useDispatch } from "react-redux";
 import { ChevronRightIcon } from "@heroicons/react/24/solid";
-import { addTodo } from "../store/reducers/task";
+import { addTodo } from '../../store/reducers/task';
 
 const Input = () => {
     const [title, setTitle] = useState("");
