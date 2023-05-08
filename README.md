@@ -27,6 +27,8 @@ O To-do List é um sistema onde pode ser adicionado novas tarefas, marcar como c
 
 :heavy_check_mark: `Funcionalidade 4:` Editar nome da tarefa.
 
+:heavy_check_mark: `Funcionalidade 5:` Ver lista de tarefas completas.
+
 
 ## Ferramentas utilizadas
 
