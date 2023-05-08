@@ -29,11 +29,11 @@ const List = () => {
             {favList ? 
                 <div className='flex items-center interactive-button'>
                     <StarIcon className='w-10 h-10 mb-2 text-yellow-500 '/>
-                    <span className="font-medium text-xl ">Favorites</span>
+                    <span className="font-medium text-xl ">Complete</span>
                 </div> 
                 : <div className="flex items-center interactive-button">
                     <FillStarIcon className='w-10 h-10 mb-2 '/>
-                    <span className="font-medium text-xl">Favorite</span>
+                    <span className="font-medium text-xl">Complete</span>
                 </div>
             }
         </div>
