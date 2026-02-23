@@ -38,4 +38,4 @@ O To-do List é um sistema onde pode ser adicionado novas tarefas, marcar como c
 
 ## Acesso ao projeto
 
-Você pode [acessar o código fonte do projeto](https://github.com/EduardoPbs/To-do-List) ou acessar o [link](https://to-do-list-nu-sand.vercel.app/).
+Você pode [acessar o código fonte do projeto](https://github.com/EduardoPbs/To-do-List).
